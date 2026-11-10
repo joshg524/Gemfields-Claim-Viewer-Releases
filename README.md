@@ -18,7 +18,7 @@ The installer is self-contained and includes the .NET desktop runtime. It instal
 
 SHA-256 for v0.5.14:
 
-`618091413EF5EEE93D501C577B43C90785211998EB91F02A30AC21A43F4BC720`
+`E2443D2E59D0EE35B3E3BAF7C16C621CC4633AF395DD150CCB0BEFA1A8B5E756`
 
 PowerShell verification:
 
@@ -31,6 +31,7 @@ The returned hash must exactly match the value above.
 ## What it does
 
 - Looks up MC and ML authorities through configured Queensland Government spatial services.
+- Opens neutrally with a grey `MC or ML 00000` example and waits for the user to choose an authority; the example is not searched.
 - Distinguishes current grants, applications and historical footprints.
 - Shows native interactive claim maps, road context and optional public imagery.
 - Provides optional fossicking, protected-area and indicative native-title/parcel context layers.
