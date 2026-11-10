@@ -14,12 +14,13 @@ The installer contains the required .NET 9 desktop runtime. No separate .NET ins
 1. Download `GemfieldsClaimViewer-Setup-v0.5.14-win-x64.exe` from the official GitHub Release.
 2. Verify its SHA-256 checksum:
 
-   `618091413EF5EEE93D501C577B43C90785211998EB91F02A30AC21A43F4BC720`
+   `E2443D2E59D0EE35B3E3BAF7C16C621CC4633AF395DD150CCB0BEFA1A8B5E756`
 
 3. Run the installer.
 4. Review the Windows warning carefully. This release is unsigned and can appear as an unknown publisher.
 5. Leave **Create a desktop shortcut** selected if a desktop shortcut is wanted.
 6. Complete installation and open Gemfields Claim Viewer from the Start menu or desktop shortcut.
+7. The application opens without selecting a claim. Enter your own MC or ML authority number to begin; the grey `MC or ML 00000` text is only an example placeholder.
 
 The application installs for the current Windows account and does not request administrator rights.
 
