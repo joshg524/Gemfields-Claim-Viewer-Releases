@@ -2,6 +2,8 @@
 
 Gemfields Claim Viewer is a Windows desktop research application for looking up Queensland mining claims and mining leases from official Queensland Government spatial services.
 
+On startup the application now remains neutral: it selects no claim and makes no claim request until the user enters an authority number. The grey `MC or ML 00000` text is a non-searchable placeholder that disappears when typing begins.
+
 The current build is **v0.5.14**. The version appears in the main window, full-map view, and detached map title, and is recorded in the executable metadata. A custom sapphire/map-pin icon appears on the app, windows, desktop and Start menu shortcuts, installer and uninstaller.
 
 In v0.5.14, **Current MC/ML** controls all non-selected granted boundaries, including the legacy Nearby Claims fallback. Previously that fallback still drew blue granted polygons when Current was off, so historical-only or applications-only views contained unwanted grants. Disabled-layer boundaries are now excluded from rendering, hover previews, hit testing and overlap choices, even with stale cached records or later nearby-result refreshes. The Nearby Claims table remains available independently. The teal selected boundary/marker remains as a location reference regardless of layer switches; it can still reopen its profile. Layer switches do not move or zoom the map. A 64-case regression matrix checks all eight switch combinations against loaded/fallback coverage, imagery on/off and labels on/off.
