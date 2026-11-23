@@ -2,7 +2,7 @@
 
 ## Supported release
 
-Only the most recent published release is intended to receive fixes. v0.5.14 is the current verified release candidate.
+Only the most recent published release is intended to receive fixes. See the [latest release](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/latest) for the supported version.
 
 ## Reporting a vulnerability
 

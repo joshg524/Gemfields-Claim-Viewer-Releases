@@ -2,7 +2,25 @@
 
 Gemfields Claim Viewer is an independent Windows desktop research application for looking up Queensland mining claims and mining leases, seeing them in map context, and keeping local research notes.
 
-## Current application views
+## Download
+
+**[Download Gemfields Claim Viewer v0.5.17 for 64-bit Windows](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/download/v0.5.17/GemfieldsClaimViewer-Setup-v0.5.17-win-x64.exe)**
+
+See the [v0.5.17 release notes and assets](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/tag/v0.5.17) or [download the SHA-256 checksum](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/download/v0.5.17/GemfieldsClaimViewer-Setup-v0.5.17-win-x64.exe.sha256).
+
+The installer is self-contained and includes the .NET desktop runtime. It installs for the current Windows account and does not require administrator rights. The release is currently unsigned, so Windows may show an unknown-publisher or reputation warning.
+
+## Verify the installer
+
+Compare the downloaded installer’s SHA-256 with the value below.
+
+`8837184677D89291E3881F0E59981A19F38946DE655E16B6BD994466B425F9F1`
+
+```powershell
+Get-FileHash .\GemfieldsClaimViewer-Setup-v0.5.17-win-x64.exe -Algorithm SHA256
+```
+
+## Application views from v0.5.16
 
 ### Full map
 
@@ -12,36 +30,12 @@ Gemfields Claim Viewer is an independent Windows desktop research application fo
 
 ![Gemfields Claim Viewer claim profile beside a boundary map with imagery and nearby claim results](media/app-claim-profile-v0516.jpg)
 
-## Download
-
-Download the current Windows installer from this repository’s **Releases** section. Do not use GitHub’s automatically generated “Source code” archives; they are not the Windows application.
-
-Current release asset:
-
-`GemfieldsClaimViewer-Setup-v0.5.14-win-x64.exe`
-
-The installer is self-contained and includes the .NET desktop runtime. It installs for the current Windows account and does not require administrator rights. The release is currently unsigned, so Windows may show an unknown-publisher or reputation warning.
-
-## Verify the installer
-
-SHA-256 for v0.5.14:
-
-`E2443D2E59D0EE35B3E3BAF7C16C621CC4633AF395DD150CCB0BEFA1A8B5E756`
-
-PowerShell verification:
-
-```powershell
-Get-FileHash .\GemfieldsClaimViewer-Setup-v0.5.14-win-x64.exe -Algorithm SHA256
-```
-
-The returned hash must exactly match the value above.
-
 ## What it does
 
 - Looks up MC and ML authorities through configured Queensland Government spatial services.
-- Opens neutrally with a grey `MC or ML 00000` example and waits for the user to choose an authority; the example is not searched.
+- Opens maximized with current MC/ML boundaries ready to browse and public imagery when available. Enter an authority number in the search field to look up a specific claim.
 - Distinguishes current grants, applications and historical footprints.
-- Shows native interactive claim maps, road context and optional public imagery.
+- Shows interactive claim maps, road context and optional public imagery. **CLEAR ALL** hides the optional map layers.
 - Provides optional fossicking, protected-area and indicative native-title/parcel context layers.
 - Keeps saved-claim bookmarks and notes locally on the user’s computer.
 - Includes a dated, bounded Gemfields claims-library snapshot for local research where coverage permits.
@@ -56,7 +50,7 @@ The public repository is a binary-release and documentation repository. The deve
 
 ## Release verification
 
-The v0.5.14 candidate completed the project’s existing release test suite with 51/51 tests passing on 10 November 2026. The installer smoke workflow installed a uniquely identified test copy, confirmed registration, shortcuts, application launch with the bundled runtime, uninstall and saved-data preservation.
+The v0.5.17 build passed 55/55 automated tests. The installer smoke test verified installation, launch with the bundled runtime, shortcuts, uninstall and preservation of saved claims, notes and cached imagery.
 
 ## Licence
 

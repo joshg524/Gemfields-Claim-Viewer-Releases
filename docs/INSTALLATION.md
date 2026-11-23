@@ -1,4 +1,4 @@
-# Installing Gemfields Claim Viewer v0.5.14
+# Installing Gemfields Claim Viewer v0.5.17
 
 ## System requirements
 
@@ -11,16 +11,16 @@ The installer contains the required .NET 9 desktop runtime. No separate .NET ins
 
 ## Install
 
-1. Download `GemfieldsClaimViewer-Setup-v0.5.14-win-x64.exe` from the official GitHub Release.
+1. Open the [v0.5.17 release](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/tag/v0.5.17) and download [`GemfieldsClaimViewer-Setup-v0.5.17-win-x64.exe`](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/download/v0.5.17/GemfieldsClaimViewer-Setup-v0.5.17-win-x64.exe) under **Assets**.
 2. Verify its SHA-256 checksum:
 
-   `E2443D2E59D0EE35B3E3BAF7C16C621CC4633AF395DD150CCB0BEFA1A8B5E756`
+   `8837184677D89291E3881F0E59981A19F38946DE655E16B6BD994466B425F9F1`
 
 3. Run the installer.
 4. Review the Windows warning carefully. This release is unsigned and can appear as an unknown publisher.
 5. Leave **Create a desktop shortcut** selected if a desktop shortcut is wanted.
 6. Complete installation and open Gemfields Claim Viewer from the Start menu or desktop shortcut.
-7. The application opens without selecting a claim. Enter your own MC or ML authority number to begin; the grey `MC or ML 00000` text is only an example placeholder.
+7. The application opens maximized with current MC/ML boundaries and public imagery when available. Browse the map or enter your own MC or ML authority number. The grey `MC or ML 00000` text is an example.
 
 The application installs for the current Windows account and does not request administrator rights.
 
