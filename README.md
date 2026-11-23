@@ -2,6 +2,8 @@
 
 Gemfields Claim Viewer is an independent Windows desktop research application for looking up Queensland mining claims and mining leases, seeing them in map context, and keeping local research notes.
 
+[Visit the Gemfields Claim Viewer website](https://gemfieldsviewer.app/)
+
 ## Download
 
 **[Download Gemfields Claim Viewer v0.5.17 for 64-bit Windows](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/download/v0.5.17/GemfieldsClaimViewer-Setup-v0.5.17-win-x64.exe)**
