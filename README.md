@@ -6,9 +6,9 @@ Gemfields Claim Viewer is an independent Windows desktop research application fo
 
 ## Download
 
-**[Download Gemfields Claim Viewer v0.5.17 for 64-bit Windows](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/download/v0.5.17/GemfieldsClaimViewer-Setup-v0.5.17-win-x64.exe)**
+**[Download Gemfields Claim Viewer v0.5.18 for 64-bit Windows](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/download/v0.5.18/GemfieldsClaimViewer-Setup-v0.5.18-win-x64.exe)**
 
-See the [v0.5.17 release notes and assets](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/tag/v0.5.17) or [download the SHA-256 checksum](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/download/v0.5.17/GemfieldsClaimViewer-Setup-v0.5.17-win-x64.exe.sha256).
+See the [v0.5.18 release notes and assets](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/tag/v0.5.18) or [download the SHA-256 checksum](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/download/v0.5.18/GemfieldsClaimViewer-Setup-v0.5.18-win-x64.exe.sha256).
 
 The installer is self-contained and includes the .NET desktop runtime. It installs for the current Windows account and does not require administrator rights. The release is currently unsigned, so Windows may show an unknown-publisher or reputation warning.
 
@@ -16,10 +16,10 @@ The installer is self-contained and includes the .NET desktop runtime. It instal
 
 Compare the downloaded installer’s SHA-256 with the value below.
 
-`8837184677D89291E3881F0E59981A19F38946DE655E16B6BD994466B425F9F1`
+`17A3000386D38E3ED21CB45E0F06B62C20DC481CBD39773A00A115FD001F161A`
 
 ```powershell
-Get-FileHash .\GemfieldsClaimViewer-Setup-v0.5.17-win-x64.exe -Algorithm SHA256
+Get-FileHash .\GemfieldsClaimViewer-Setup-v0.5.18-win-x64.exe -Algorithm SHA256
 ```
 
 ## Application views from v0.5.16
@@ -52,7 +52,7 @@ The public repository is a binary-release and documentation repository. The deve
 
 ## Release verification
 
-The v0.5.17 build passed 55/55 automated tests. The installer smoke test verified installation, launch with the bundled runtime, shortcuts, uninstall and preservation of saved claims, notes and cached imagery.
+The v0.5.18 build passed 55/55 automated tests, including checks for compact-map label rendering and imagery retention during a simulated service failure. The installer version and SHA-256 were verified before publication.
 
 ## Licence
 
