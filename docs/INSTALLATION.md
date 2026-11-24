@@ -1,4 +1,4 @@
-# Installing Gemfields Claim Viewer v0.5.17
+# Installing Gemfields Claim Viewer v0.5.18
 
 ## System requirements
 
@@ -11,10 +11,10 @@ The installer contains the required .NET 9 desktop runtime. No separate .NET ins
 
 ## Install
 
-1. Open the [v0.5.17 release](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/tag/v0.5.17) and download [`GemfieldsClaimViewer-Setup-v0.5.17-win-x64.exe`](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/download/v0.5.17/GemfieldsClaimViewer-Setup-v0.5.17-win-x64.exe) under **Assets**.
+1. Open the [v0.5.18 release](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/tag/v0.5.18) and download [`GemfieldsClaimViewer-Setup-v0.5.18-win-x64.exe`](https://github.com/joshg524/Gemfields-Claim-Viewer-Releases/releases/download/v0.5.18/GemfieldsClaimViewer-Setup-v0.5.18-win-x64.exe) under **Assets**.
 2. Verify its SHA-256 checksum:
 
-   `8837184677D89291E3881F0E59981A19F38946DE655E16B6BD994466B425F9F1`
+   `17A3000386D38E3ED21CB45E0F06B62C20DC481CBD39773A00A115FD001F161A`
 
 3. Run the installer.
 4. Review the Windows warning carefully. This release is unsigned and can appear as an unknown publisher.
